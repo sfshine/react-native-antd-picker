@@ -1,11 +1,11 @@
 import React from "react";
 import { Text, StyleSheet } from "react-native";
 function a() {
-  return <Text style={styles.itemText}>😝{test}</Text>;
+  return <Text style={styles.itemText}>😝{demoView}</Text>;
 }
 export default a;
 
-const test = 1;
+const demoView = 1;
 const styles = {
   indicator: {
     position: "absolute",

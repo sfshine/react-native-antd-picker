@@ -10,14 +10,14 @@
 
 import React, {Component} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import CityPicker from 'react-native-antd-picker';
+import {Demo as Test} from 'react-native-antd-picker';
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>aa</Text>
-        <CityPicker
+        <Test
           onChange={(v) => {
             console.warn('onChange', v);
           }}
