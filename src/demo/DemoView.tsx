@@ -6,6 +6,7 @@ function a() {
 export default a;
 
 const demoView = 1;
+//这里使用StyleSheet.create 白屏报错:Invariant Violation: Module RCTDeviceEventEmitter is not a registered callable module (calling emit)
 const styles = {
   indicator: {
     position: "absolute",
